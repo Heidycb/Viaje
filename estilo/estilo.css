@@ -112,7 +112,9 @@ body {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: auto;
+    margin-top: 0%;
+    margin-right: 0%;
+    border: 0%;
 }
 /*------------------DESTINOS---------------*/
 .destino{
