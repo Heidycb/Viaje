@@ -38,6 +38,7 @@ body {
     padding-top: 40px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .texto1{
@@ -79,6 +80,7 @@ body {
 .fila2 p{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: white;
     font-size: 42px;
 }
@@ -91,6 +93,7 @@ body {
 .fila3 p{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top:15px;
     font-size: 42px;
 }
@@ -106,9 +109,10 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin: 0%;
+    margin-top: auto;
 }
 /*------------------DESTINOS---------------*/
 .destino{
@@ -171,7 +175,15 @@ textarea {
     min-width: 200px;
 }
 
+@media(max-width: 575px){
+    .fila2 p{
+        color: black;
+}
+}
 
-
-
+@media(min-width: 576px) and (max-width: 768px){
+    .fila2 p{
+        color: black;
+}
+}
 
