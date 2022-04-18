@@ -12,10 +12,11 @@ html {
 }
 body {
     font-family: 'Signika Negative', sans-serif;
-    background-color: #F4EEFF;
+    background-color:#F4EEFF;
 }
 /*-----------------INDEX----------------*/
 /*-----Titulo-----------*/
+
 .titulo{
     background: radial-gradient(circle, rgba(230,111,40,1) 0%, rgba(21,82,99,1) 0%, rgba(11,46,55,1) 74%, rgba(3,18,22,1) 99%);
     color: white;
@@ -88,6 +89,7 @@ body {
 .fila3{
     background-color:white ;
     color: black;
+    padding: 0%;
 
 }
 .fila3 p{
